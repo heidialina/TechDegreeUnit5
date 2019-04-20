@@ -1,0 +1,26 @@
+/* CSS Document */
+
+.lb-data .lb-details {
+	width: 85%;
+	float: left;
+	text-align: center;
+	line-height: 1.1em;
+	padding: 20px;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-close {
+	margin-top: 15px; 
+}
+
+.lightboxOverlay {
+	@include media(break-s) {
+	overflow: hidden;
+	position: fixed;
+	}
+}

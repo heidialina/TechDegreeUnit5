@@ -1,0 +1,66 @@
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+/* CSS Document */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+body {
+  background-color: #e4b363;
+  box-sizing: border-box;
+  margin: auto;
+  max-width: 900px;
+  font-family: 'Roboto Mono', monospace; }
+
+/* CSS Document */
+/* CSS Document */
+.search_box {
+  margin: 20px auto;
+  width: 100%;
+  text-align: center; }
+  .search_box #search_input {
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; }
+
+/* CSS Document */
+.gallery {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%; }
+  @media (max-width: 767px) {
+    .gallery {
+      max-width: 90%; } }
+  .gallery .thumb {
+    margin: 10px auto;
+    box-shadow: 5px 5px 10px darkorange;
+    height: 200px;
+    width: 200px; }
+
+/* CSS Document */
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: center;
+  line-height: 1.1em;
+  padding: 20px; }
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em; }
+
+.lb-data .lb-close {
+  margin-top: 15px; }
+
+@media (max-width: 767px) {
+  .lightboxOverlay {
+    overflow: hidden;
+    position: fixed; } }
+
+/*# sourceMappingURL=styles.css.map */

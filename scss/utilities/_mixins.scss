@@ -1,0 +1,26 @@
+/* CSS Document */
+
+@mixin media ($mediaq) {
+	@if $mediaq == break-l {
+		@media #{$break-l} { 
+			@content;
+	  }
+	}
+	@else if $mediaq == break-s {
+		@media #{$break-s} {
+			@content;
+		}
+	}
+}
+
+@mixin center {
+	display: block; 
+	margin: auto;
+	@content;
+}
+
+@mixin searchtext {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center; 
+}

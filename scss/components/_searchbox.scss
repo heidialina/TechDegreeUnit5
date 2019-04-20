@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.search_box { 
+	margin: 20px auto;
+	width: 100%;
+	text-align: center;
+	
+	& #search_input {
+		padding: 20px;
+		width: 70%;
+		border-radius: 10px; 
+		border: none;
+		@include searchtext;
+	}
+}
