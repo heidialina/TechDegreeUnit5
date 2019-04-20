@@ -4,9 +4,9 @@
 	margin: 0 auto; 
 	display: flex; 
 	flex-wrap: wrap;
-	max-width: 100%;
-	@include media(break-s){
-		max-width: 90%;
+	max-width: 90%;
+	@include media(break-l){
+		max-width: 100%;
 		}
 	
 	& .thumb {

@@ -19,8 +19,9 @@
 }
 
 .lightboxOverlay {
-	@include media(break-s) {
 	overflow: hidden;
 	position: fixed;
+	@include media(break-l) {
+		overflow: auto;
 	}
 }
